@@ -1,0 +1,42 @@
+.st_Btn{
+    margin-left: 8px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+
+    transition: background-color 0.15s,color 0.15s;
+    transition: border-radius 0.3s ;
+}
+.st_Btn:hover{
+
+    color: white;
+    padding: 9px;
+    border: 1px solid black;
+    border-radius: 0%;
+}
+.st_Btn_1:hover{
+    background-color: rgb(58, 110, 52);
+}
+.st_Btn_1{
+    background-color: rgb(135, 57, 57);
+}
+.st_Btn_2{
+    background-color: rgb(58, 110, 52);
+}
+.st_Btn_2:hover{
+    background-color: rgb(135, 57, 57)
+}
+.st_Btn_3{
+    background-color: rgb(255, 251, 0);
+}
+.st_Btn_3:hover{
+    background-color: rgb(1, 132, 255);
+}
+.st_Btn_4{
+    background-color: rgb(1, 132, 255);
+}
+.st_Btn_4:hover{
+    background-color: rgb(255, 251, 0);
+}
+

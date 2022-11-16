@@ -1,0 +1,57 @@
+
+.icon_btn{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #cdcdcd;
+    background-color: white;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    transition: width 0.2s ease-in-out;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+}
+.icon_btn:active{
+    background-color: #cdcdcd;
+    color: white;
+}
+.print_btn:hover{
+    width: 120px;
+}
+.print_btn::before,
+.print_btn::after{
+    transition: width 0.2s ease-in-out, border-radius 0.2s ease-in-out;
+    content: "";
+    position: absolute ;
+    height: 4px;
+    width: 10px;
+    top: calc(50% - 2px);
+    background: seagreen;
+}
+.print_btn::after{
+    right: 14px;
+    overflow: hidden;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.print_btn::before{
+    left: 14px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.icon_btn:focus{
+    outline: none;
+}
+.btn_txt{
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+.print_btn:hover::before,
+.print_btn:hover::after{
+    width: 4px;
+    border-radius: 2px;
+}
+.print_btn:hover .btn_txt{
+    opacity: 1;
+}
