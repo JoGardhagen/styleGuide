@@ -1,0 +1,16 @@
+.sideBarMenuBlock{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 100%;
+    padding: 20px;
+    transition: all 0.5s ease;
+}
+.sideBarMenuBlock a {
+    text-decoration: none;
+}
+.main{
+    margin-left: 15%;
+    padding: 0px 10px;
+}
