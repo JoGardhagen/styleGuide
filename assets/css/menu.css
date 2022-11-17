@@ -1,16 +1,32 @@
-.sideBarMenuBlock{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 10%;
-    height: 100%;
-    padding: 20px;
-    transition: all 0.5s ease;
+.tab{
+    float: left;
+
+    width: 20%;
+    height: 300px;
+
+    background-color: tomato;
 }
-.sideBarMenuBlock a {
-    text-decoration: none;
+.tab button{
+    display: block;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 17px;
 }
-.main{
-    margin-left: 15%;
-    padding: 0px 10px;
+.tab button:hover{
+    background-color: #ddd;
+    font-weight: bolder;
+}
+.tabcontent{
+    margin-left: 5%;
+    display: none;
+    float: left;
+}
+.clearFix::after{
+    content: "";
+    clear: both;
+    display: table;
 }

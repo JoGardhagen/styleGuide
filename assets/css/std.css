@@ -1,0 +1,16 @@
+.buttonPrimary{
+    color: aquamarine;
+    background-color: black;
+    height: 40px;
+    
+    border-radius: 5px;
+    padding: 5px;
+}
+/* .contentObject{
+    margin-left: 50%;
+} */
+.clearFix::after{
+    content: "";
+    clear: both;
+    display: table;
+}

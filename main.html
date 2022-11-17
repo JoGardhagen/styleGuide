@@ -2,42 +2,95 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/assets/css/standardBtn.css">
-        <link rel="stylesheet" href="/assets/css/printBtn.css">
-        <link rel="stylesheet" href="/assets/css/menu.css">
+        <link rel="stylesheet" href="assets/css/standardBtn.css">
+        <link rel="stylesheet" href="assets/css/printBtn.css">
+        <link rel="stylesheet" href="assets/css/menu.css">
+        <link rel="stylesheet" href="assets/css/std.css">
     </head>
     <body>
-        <div class="sideBarMenuBlock">
-            <a href="#" class="headers">Header</a>
-            <a href="#" class="floatTxt">Float-Text</a>
-            <a href="#" class="buttonsExamples">Buttons</a>
-            <a href="#" class="tables">Tables</a>
-            <a href="#" class="navigation">Navigation</a>
-            <a href="#" class="msgWarn"></a>
-            <a href="#" class="loadIndicate">Loading-indicating</a>
-            <a href="#" class="panels">Panels</a>
-            <a href="#" class="forms">Forms</a>
-            <a href="#" class="colorScheme">ColorScheme</a>
+        <div class="tab">
+            <button class="contentLink" onclick="openContent(event, 'Home')">Home</button>
+            <button class="contentLink" onclick="openContent(event, 'Header')">Headers</button>
+            <button class="contentLink" onclick="openContent(event, 'Text')">Text</button>
+            <button class="contentLink" onclick="openContent(event, 'Buttons')">Buttons</button>
+            <button class="contentLink" onclick="openContent(event, 'Tables')">Tables</button>
+            <button class="contentLink" onclick="openContent(event, 'Navigation')">Navigation</button>
+            <button class="contentLink" onclick="openContent(event, 'Notation')">Notation</button>
+            <button class="contentLink" onclick="openContent(event, 'LoadIndicate')">Load-Indicate</button>
+            <button class="contentLink" onclick="openContent(event, 'Panels')">Panels</button>
+            <button class="contentLink" onclick="openContent(event, 'Forms')">Form</button>
+            <button class="contentLink" onclick="openContent(event, 'ColorScheme')">Color-Scheme</button>
         </div>
-        <div class="main">
+        <div id="Home" class="tabcontent">
+            <h3>Home</h3>
+            <p>Welcome to this StyleGuide!</p>
+            <p>Written in : </p>
+            <pre>
+                <lu>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                </lu>
+            </pre>
+        </div>
+        <div id="Header" class="tabcontent">
             <h1>Rubrik 1</h1>
             <h2>Rubrik 2</h2>
             <h3>Rubrik 3</h3>
             <h4>Rubrik 4</h4>
-        <div class="standardBTN">
+        </div>
+        <div id="Text" class="tabcontent">
+            <h3>Text</h3>
+            <p>This is Text!</p>
+        </div>
+        <div id="Buttons" class="tabcontent"> 
             <button class="st_Btn st_Btn_1">Button 1</button>
             <button class="st_Btn st_Btn_2">Button 2</button>
             <button class="st_Btn st_Btn_3">Button 3</button>
             <button class="st_Btn st_Btn_4">Button 4</button>
-        </div>
-        <p>
+            <p>
 
-        </p>
-        <button class="icon_btn print_btn">
-            <div class="print_icon"></div>
-            <div class="print_icon2"></div>
-            <div class="btn_txt">Skriv ut!</div>
-        </button>
+            </p>
+            <button class="icon_btn print_btn">
+                <div class="print_icon"></div>
+                <div class="print_icon2"></div>
+                <div class="btn_txt">Skriv ut!</div>
+            </button>
+        </div>
+        <div id="Tables" class="tabcontent">
+            <h3>Tables</h3>
+            <p>This is Tables!</p>
+        </div>
+        <div id="Navigation" class="tabcontent">
+            <h3>Navigation</h3>
+            <p>This is Navigation!</p>
+        </div>
+        <div id="Notation" class="tabcontent">
+            <h3>Text</h3>
+            <p>This is Notation!</p>
+        </div>
+        <div id="LoadIndicate" class="tabcontent">
+            <h3>Load-Indicate</h3>
+            <p>This is Load Indication!</p>
+        </div>
+        <div id="Panels" class="tabcontent">
+            <h3>Panels</h3>
+            <p>This is Panels!</p>
+        </div>
+        <div id="Forms" class="tabcontent">
+            <h3>Forms</h3>
+            <p>This is Forms!</p>
+        </div>
+        <div id="ColorScheme" class="tabcontent">
+            <h3>Color-Scheme</h3>
+            <p>This is Color-Scheme!</p>
+        </div>
+    
+        <!-- <button id="minKnapp" class="buttonPrimary">minKnapp</button> -->
+        <div class="clearFix"></div>
     </div>
+    <!-- <script src="scripts/file.js"> </script> -->
+    <script src="scripts/openContent.js">
+    </script>
     </body>
 </html>
