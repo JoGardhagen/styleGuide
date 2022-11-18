@@ -23,28 +23,52 @@
     border-radius: 25px;
 }
 
-.st_Btn_1{
+#stBtn_color_1{
     background-color: rgb(135, 57, 57);
 }
-.st_Btn_1:hover{
+#stBtn_color_1:hover{
     background-color: rgb(58, 110, 52);
 }
-.st_Btn_2{
+#stBtn_color_2{
     background-color: rgb(58, 110, 52);
 }
-.st_Btn_2:hover{
+#stBtn_color_2:hover{
     background-color: rgb(135, 57, 57)
 }
-.st_Btn_3{
+#stBtn_color_3{
     background-color: rgb(255, 251, 0);
 }
-.st_Btn_3:hover{
+#stBtn_color_3:hover{
     background-color: rgb(1, 132, 255);
 }
-.st_Btn_4{
+#stBtn_color_4{
     background-color: rgb(1, 132, 255);
 }
-.st_Btn_4:hover{
+#stBtn_color_4:hover{
+    background-color: rgb(255, 251, 0);
+}
+#stBtn2_color_1{
+    background-color: rgb(135, 57, 57);
+}
+#stBtn2_color_2{
+    background-color: rgb(58, 110, 52);
+}
+#stBtn2_color_3{
+    background-color: rgb(255, 251, 0);
+}
+#stBtn2_color_4{
+    background-color: rgb(1, 132, 255);
+}
+#stBtn2_color_1:hover{
+    background-color: rgb(58, 110, 52);    
+}
+#stBtn2_color_2:hover{
+    background-color: rgb(135, 57, 57);
+}
+#stBtn2_color_3:hover{
+    background-color: rgb(1, 132, 255);
+}
+#stBtn2_color_4:hover{
     background-color: rgb(255, 251, 0);
 }
 
