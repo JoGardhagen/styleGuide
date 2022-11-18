@@ -3,8 +3,6 @@
     padding: 10px;
     cursor: pointer;
     border: none;
-    border-radius: 25px;
-
     transition: background-color 0.15s,color 0.15s;
     transition: border-radius 0.3s ;
 }
@@ -14,6 +12,15 @@
     padding: 9px;
     border: 1px solid black;
     border-radius: 0%;
+}
+.st_Btn_sample_1{
+    border-radius: 25px;
+}
+.st_Btn_sample_2{
+    border-radius: 0px;
+}
+.st_Btn_sample_2:hover{
+    border-radius: 25px;
 }
 
 .st_Btn_1{
