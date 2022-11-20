@@ -30,3 +30,6 @@
     clear: both;
     display: table;
 }
+#ColorScheme{
+    float: left;
+}
