@@ -1,0 +1,17 @@
+.panel{
+    /* height: 50px; */
+    width: 450px;
+    border: 1px solid transparent;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#positiv{
+    background-color: greenyellow;
+}
+#negativ{
+    background-color: rgb(205, 72, 72);
+}
+#neutral{
+    background-color: #ccc;
+}

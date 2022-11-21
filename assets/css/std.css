@@ -9,8 +9,3 @@
 /* .contentObject{
     margin-left: 50%;
 } */
-.clearFix::after{
-    content: "";
-    clear: both;
-    display: table;
-}
