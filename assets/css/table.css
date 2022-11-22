@@ -5,4 +5,9 @@ table,th,td{
 }
 td{
     background-color: aliceblue;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#yP{
+    background-color: rgb(255, 255, 168);
 }
