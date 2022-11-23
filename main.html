@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="assets/css/flipCard.css">
         <link rel="stylesheet" href="assets/css/table.css">
         <link rel="stylesheet" href="assets/css/panels.css">
+        <link rel="stylesheet" href="assets/css/loding.css">
     </head>
     <body>
         <div class="tab">
@@ -272,10 +273,10 @@
             To get here you have managed to use the navigation system: here is a sort of explaniaton how the thing works.
             the navigation system is a simple tab menu but puted on the this becuse it looks narly.
             se picture:
-            <img src="/img/tabImg.png" >
+            <img src="img/tabImg.png" >
             you can see that it is using events to open content witch is all the tabs in the menus represantations.
             and we have a simpl script wish is shown here :
-            <img src="/img/scriptImg.png" >
+            <img src="img/scriptImg.png" >
             Not much to say more then the openContent Function takes event and contentName witch is the the user
             have been clicking on, the content from before becoming inactive by replacing active to "";.
             </p>
@@ -288,13 +289,10 @@
         </div>
         <div id="LoadIndicate" class="tabcontent">
             <h3>Load-Indicate</h3>
-            <p>This is Load Indication!</p>
-            <label for="progressBar">Progress Bar: </label>
-            <progress id="progressBar" max="100" value="10">10%</progress>
-            <progress id="progressBar" max="100" value="30">30%</progress>
-            <progress id="progressBar" max="100" value="50">50%</progress>
-            <progress id="progressBar" max="100" value="70">70%</progress>
-            <progress id="progressBar" max="100" value="90">90%</progress>
+            <p>Simple Loading Indication circle</p>
+            <div class="loader"></div>
+            <p>You define a class and use css styling to make it a circle , and a Keyframe for rotating</p>
+            <img src="img/loadingImg.png">
         </div>
         <div id="Panels" class="tabcontent">
             <h3>Panels</h3>
@@ -322,7 +320,7 @@
                 <p>
                     Panels are just simple classes witch is styled simply in the css code
                 </p>
-            <img src="/img/panelImg.png" height="400px" width="400px">
+            <img src="img/panelImg.png" height="400px" width="400px">
         </div>
         <div id="Forms" class="tabcontent">
             <h3>Forms</h3>
