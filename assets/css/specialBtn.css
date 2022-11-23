@@ -29,6 +29,9 @@
     top: calc(50% - 2px);
     background: seagreen;
 }
+#pos{
+    background: wheat;
+}
 .spec_btn::after{
     right: 14px;
     overflow: hidden;
@@ -54,4 +57,14 @@
 }
 .spec_btn:hover .btn_txt{
     opacity: 1;
+}
+
+#pos{
+    background: wheat;
+}
+#neg{
+    background: saddlebrown;
+}
+#exit{
+    background: red;
 }
