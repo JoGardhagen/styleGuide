@@ -1,0 +1,28 @@
+.notationAlert{
+    padding: 20px;
+    
+    color: black;
+}
+.notationBtn{
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.notationBtn:hover{
+    color: white;
+
+}
+#bad{
+    background-color: rgb(205, 72, 72);
+}
+#good{
+    background-color: greenyellow;
+}
+#popup{
+    background-color: beige;
+}

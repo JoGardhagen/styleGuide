@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="assets/css/table.css">
         <link rel="stylesheet" href="assets/css/panels.css">
         <link rel="stylesheet" href="assets/css/loding.css">
+        <link rel="stylesheet" href="assets/css/notation.css">
     </head>
     <body>
         <div class="tab">
@@ -285,7 +286,25 @@
         </div>
         <div id="Notation" class="tabcontent">
             <h3>Notation</h3>
-            <p>This is Notation!</p>
+            <div class="notationAlert" id="bad">
+                <span class="notationBtn"  onclick="">&times;</span>
+                <strong>Danger!</strong> I am a Notation that somthing went wrong or Just Bad.
+            </div>
+            <p></p>
+            <div class="notationAlert" id="good">
+                <span class="notationBtn"  onclick="">&times;</span>
+                <strong>Success</strong> I am a Notation that thing going succesfully or Done.
+            </div>
+            <p></p>
+            <div class="notationAlert" id="popup">
+                <span class="notationBtn"  onclick="">&times;</span>
+                <strong>I Want You to Know</strong> When stuff either good or bad ,Just information.
+            </div>
+            <hr>
+            <p>
+                This Notation shall be simple as panels the only diffrence is an 'X' button to remove and acknowledge.
+            </p>
+
         </div>
         <div id="LoadIndicate" class="tabcontent">
             <h3>Load-Indicate</h3>
@@ -337,6 +356,16 @@
                     <option value="ufo">Ufo</option>
                     <option value="yesPlease">Yes plz!</option>
                 </select>
+                <input type="checkbox" id="food1" name="food1" value="Pizza">
+                <label for="food1">Pizza</label>
+                <input type="checkbox" id="food2" name="food2" value="Hamburger">
+                <label for="food2">Hamburger</label>
+                <input type="checkbox" id="food3" name="food3" value="Hotdog">
+                <label for="food3">Hotdog</label>
+                <input type="checkbox" id="food4" name="food4" value="Kebab">
+                <label for="food4">Kebab</label>
+                <p></p>
+                <textarea rows="5" cols="95" name="commetn">What is your favorite scary movie...?</textarea>
                 <input type="submit" value="Submit">
 
                 <div class="card">
@@ -414,7 +443,7 @@
         </div>
         </div>
 
-        <!-- <button id="minKnapp" class="buttonPrimary">minKnapp</button> -->
+       <!--This div is as it sound an empty class for not showing anything-->
         <div class="clearFix"></div>
     </div>
     <!-- <script src="scripts/file.js"> </script> -->
