@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/standardBtn.css">
-        <link rel="stylesheet" href="assets/css/printBtn.css">
+        <link rel="stylesheet" href="assets/css/specialBtn.css">
         <link rel="stylesheet" href="assets/css/menu.css">
         <link rel="stylesheet" href="assets/css/std.css">
         <link rel="stylesheet" href="assets/css/forms.css">
@@ -45,6 +45,8 @@
             <h2>Header 2 'h2' This is abit smaller then h1</h2>
             <h3>Header 3 'h3' is even smaller then h2</h3>
             <h4>Header 4 'h4' as you can see this one is even smaller then h3</h4>
+            <hr>
+            <p>This tab is just showing diffrent header in action, Btw i am a paragraf not a header</p>
         </div>
         <div id="Text" class="tabcontent" width="500px">
             <h3>Text</h3>
@@ -89,11 +91,23 @@
                 <button class="st_Btn st_Btn_sample_2" id="stBtn2_color_4">Button 4</button>
             
             <p></p>
-            <button class="icon_btn print_btn">
+            <pre><p>
+    All these Buttons works the same they are simple and the only diffrence is the hover
+    effect wich changs to rounder or pointier angel and some have color see picture</p></pre>
+            
+            <img src="img/stBtnImg.png" width="400px" height="400px">
+            <h3>Special button</h3>
+            <p>Hover over it .</p>
+            <button class="icon_btn spec_btn">
                 <div class="print_icon"></div>
                 <div class="print_icon2"></div>
-                <div class="btn_txt">Skriv ut!</div>
+                <div class="btn_txt">I am a special button</div>
             </button>
+            <pre><p>
+    Special Button works abit diffrent here in the css cod we have a before and after witch detemant 
+    how it shall look before and after in the hovering effect
+            </pre></p>
+            <img src="img/specBtnImg.png" width="400px" height="400px">
         </div>
         <div id="Tables" class="tabcontent">
             <h3>Tables</h3>
@@ -243,16 +257,33 @@
                     <td id="yP"></td>
                 </tr>
             </table>
+            <p id="tableExpaination">
+                <pre>
+                Tables work simply like this you have and header tag: 'th' and in it you can difine
+                top header for the columns, then you fill the data for the table within another tag:
+                'td', here you fill in the data you want, and as always you use css code to style 
+                the whole thing.
+            </pre>
+            </p>
         </div>
         <div id="Navigation" class="tabcontent">
             <h3>Navigation</h3>
-            <p>This is Navigation!</p>
-            <p>
-                navigation is working throu a tab menu system!
+            <pre><p>This is Navigation!</p><p>
+            To get here you have managed to use the navigation system: here is a sort of explaniaton how the thing works.
+            the navigation system is a simple tab menu but puted on the this becuse it looks narly.
+            se picture:
+            <img src="/img/tabImg.png" >
+            you can see that it is using events to open content witch is all the tabs in the menus represantations.
+            and we have a simpl script wish is shown here :
+            <img src="/img/scriptImg.png" >
+            Not much to say more then the openContent Function takes event and contentName witch is the the user
+            have been clicking on, the content from before becoming inactive by replacing active to "";.
             </p>
+            </pre>
+            
         </div>
         <div id="Notation" class="tabcontent">
-            <h3>Text</h3>
+            <h3>Notation</h3>
             <p>This is Notation!</p>
         </div>
         <div id="LoadIndicate" class="tabcontent">
@@ -285,6 +316,13 @@
                     we dont need header here.
                 </p>
             </div>
+            <p></p>
+            <p></p>
+            <hr>
+                <p>
+                    Panels are just simple classes witch is styled simply in the css code
+                </p>
+            <img src="/img/panelImg.png" height="400px" width="400px">
         </div>
         <div id="Forms" class="tabcontent">
             <h3>Forms</h3>

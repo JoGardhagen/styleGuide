@@ -16,11 +16,11 @@
     background-color: #cdcdcd;
     color: white;
 }
-.print_btn:hover{
+.spec_btn:hover{
     width: 120px;
 }
-.print_btn::before,
-.print_btn::after{
+.spec_btn::before,
+.spec_btn::after{
     transition: width 0.2s ease-in-out, border-radius 0.2s ease-in-out;
     content: "";
     position: absolute ;
@@ -29,13 +29,13 @@
     top: calc(50% - 2px);
     background: seagreen;
 }
-.print_btn::after{
+.spec_btn::after{
     right: 14px;
     overflow: hidden;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
 }
-.print_btn::before{
+.spec_btn::before{
     left: 14px;
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
@@ -47,11 +47,11 @@
     opacity: 0;
     transition: opacity 0.2s;
 }
-.print_btn:hover::before,
-.print_btn:hover::after{
+.spec_btn:hover::before,
+.spec_btn:hover::after{
     width: 4px;
     border-radius: 2px;
 }
-.print_btn:hover .btn_txt{
+.spec_btn:hover .btn_txt{
     opacity: 1;
 }
